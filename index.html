@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Slider</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="gallery">
+                <a href="./assets/images/img_1_big.jpeg">
+                    <img src="./assets/images/img_1_small.jpeg" alt="small-1">
+                </a>
+                <a href="./assets/images/img_2_big.jpeg">
+                    <img src="./assets/images/img_2_small.jpeg" alt="small-2">
+                </a>
+                <a href="./assets/images/img_3_big.jpeg">
+                    <img src="./assets/images/img_3_small.jpeg" alt="small-3">
+                </a>
+                
+                <form>
+                    <i class="fas fa-file-upload"></i>
+                    <input type="file" class="choose-file" multiple />
+                </form>
+                <form>
+                    <i class="fas fa-file-upload"></i>
+                    <input type="file" class="choose-file" multiple />
+                </form>
+                <form>
+                    <i class="fas fa-file-upload"></i>
+                    <input type="file" class="choose-file" multiple />
+                </form>
+            </div>
+        </div>
+
+        <div class="items">
+            <div class="popup">
+                <div class="inner">
+                    <img src="./assets/images/img_1_big.jpeg" alt="slider-bigger">
+                    
+                    <div class="close-icon">
+                        <i class="far fa-times-circle"></i>
+                    </div>
+                    <div class="arrows">
+                        <div class="prev">
+                            <i class="fas fa-arrow-circle-left"></i>
+                        </div>
+                        <div class="next">
+                            <i class="fas fa-arrow-circle-right"></i>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

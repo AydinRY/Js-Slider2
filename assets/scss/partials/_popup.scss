@@ -1,0 +1,48 @@
+.popup {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff8a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  
+    .inner {
+      position: relative;
+      border: 8px solid white;
+      border-radius: 10px;
+  
+      .close-icon {
+        position: absolute;
+        top: -18px;
+        right: -14px;
+        cursor: pointer;
+        background-color: black;
+        border-radius: 50%;
+  
+        i {
+          color: white;
+          font-size: 25px;
+        }
+      }
+  
+      .arrows {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: absolute;
+        width: 100%;
+        top: 45%;
+  
+        i {
+          cursor: pointer;
+          color: black;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  
